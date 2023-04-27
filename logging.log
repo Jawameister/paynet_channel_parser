@@ -1,0 +1,972 @@
+2023-04-26 14:05:19,548 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-26 14:05:19,643 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:05:20,211 - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d!
+2023-04-26 14:09:34,954 - Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:14:40,150 - Task exception was never retrieved
+future: <Task finished name='Task-71' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:14:42,650 - Task exception was never retrieved
+future: <Task finished name='Task-74' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:21:16,264 - Task exception was never retrieved
+future: <Task finished name='Task-142' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:21:29,757 - Task exception was never retrieved
+future: <Task finished name='Task-144' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:21:48,531 - Task exception was never retrieved
+future: <Task finished name='Task-146' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:22:04,793 - Task exception was never retrieved
+future: <Task finished name='Task-148' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:22:19,386 - Task exception was never retrieved
+future: <Task finished name='Task-150' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:22:32,507 - Task exception was never retrieved
+future: <Task finished name='Task-152' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:23:05,338 - Task exception was never retrieved
+future: <Task finished name='Task-154' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:23:25,588 - Task exception was never retrieved
+future: <Task finished name='Task-156' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:23:56,939 - Task exception was never retrieved
+future: <Task finished name='Task-158' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:25:07,298 - Task exception was never retrieved
+future: <Task finished name='Task-162' coro=<UpdateMethods._dispatch_update() done, defined at C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py:494> exception=ValueError('No user has "cvesxfxmxu2mh3_kz" as username')>
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 548, in _get_entity_from_string
+    result = await self(
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 83, in _call
+    result = await future
+telethon.errors.rpcerrorlist.UsernameNotOccupiedError: The username is not in use by anyone else yet (caused by ResolveUsernameRequest)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 534, in _dispatch_update
+    await builder.resolve(self)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 99, in resolve
+    await self._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 93, in _resolve
+    await super()._resolve(client)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 103, in _resolve
+    self.chats = await _into_id_set(client, self.chats)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\common.py", line 33, in _into_id_set
+    chat = await client.get_input_entity(chat)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 432, in get_input_entity
+    await self._get_entity_from_string(peer))
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\users.py", line 551, in _get_entity_from_string
+    raise ValueError('No user has "{}" as username'
+ValueError: No user has "cvesxfxmxu2mh3_kz" as username
+2023-04-26 14:27:06,670 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-26 14:27:06,671 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:27:06,671 - Not disconnecting (already have no connection)
+2023-04-26 14:27:07,163 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-26 14:27:07,258 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:27:07,869 - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d!
+2023-04-26 14:39:16,103 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-26 14:39:16,103 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:39:16,103 - Not disconnecting (already have no connection)
+2023-04-26 14:39:16,793 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-26 14:39:16,892 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:39:17,428 - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d!
+2023-04-26 14:41:07,663 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-26 14:41:07,663 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:41:07,663 - Not disconnecting (already have no connection)
+2023-04-26 14:41:15,366 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-26 14:41:15,464 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:41:16,000 - \u0411\u043e\u0442 \u0437\u0430\u043f\u0443\u0449\u0435\u043d!
+2023-04-26 14:47:01,055 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-26 14:47:01,056 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-26 14:47:01,056 - Not disconnecting (already have no connection)
+2023-04-27 11:27:58,436 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:27:58,542 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:27:59,104 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:28:21,513 - Got difference for channel 1973861485 updates
+2023-04-27 11:33:33,403 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:33:33,403 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:33:33,404 - Not disconnecting (already have no connection)
+2023-04-27 11:33:33,969 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:33:34,072 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:33:34,643 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:41:12,055 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:41:12,055 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:41:12,056 - Not disconnecting (already have no connection)
+2023-04-27 11:41:50,067 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:41:50,180 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:41:51,282 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:46:26,732 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:46:26,732 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:46:26,732 - Not disconnecting (already have no connection)
+2023-04-27 11:46:27,204 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:46:27,313 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:46:28,145 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:46:32,220 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 60, in handle_message
+    m = re.match(pattern, event.message.message, flags=re.UNICODE)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 526, in _parse
+    code = _escape(source, this, state)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 427, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \p at position 47
+2023-04-27 11:49:20,961 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:49:20,961 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:49:20,961 - Not disconnecting (already have no connection)
+2023-04-27 11:49:21,439 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:49:21,541 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:49:22,090 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:49:27,412 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 60, in handle_message
+    m = re.match(pattern, event.message.message, flags=re.UNICODE)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 526, in _parse
+    code = _escape(source, this, state)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 427, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \p at position 56
+2023-04-27 11:49:42,847 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 60, in handle_message
+    m = re.match(pattern, event.message.message, flags=re.UNICODE)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 191, in match
+    return _compile(pattern, flags).match(string)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 788, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 955, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 841, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 444, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 526, in _parse
+    code = _escape(source, this, state)
+  File "C:\Users\Jawa\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 427, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \p at position 56
+2023-04-27 11:50:26,433 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:50:26,433 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:50:26,433 - Not disconnecting (already have no connection)
+2023-04-27 11:50:26,916 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:50:27,010 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:50:27,712 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:52:06,046 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:52:06,047 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:52:06,047 - Not disconnecting (already have no connection)
+2023-04-27 11:52:06,535 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:52:06,732 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:52:07,745 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:53:26,382 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:53:26,383 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:53:26,383 - Not disconnecting (already have no connection)
+2023-04-27 11:53:26,855 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:53:26,957 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:53:27,594 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:54:12,745 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:54:12,746 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:54:12,746 - Not disconnecting (already have no connection)
+2023-04-27 11:54:13,220 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:54:13,319 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:54:13,894 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:54:42,647 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:54:42,647 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:54:42,647 - Not disconnecting (already have no connection)
+2023-04-27 11:54:43,258 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:54:44,366 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:54:45,307 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:56:10,843 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:56:10,843 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:56:10,844 - Not disconnecting (already have no connection)
+2023-04-27 11:56:11,357 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:56:11,461 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:56:12,178 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 11:56:25,272 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 11:56:25,273 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:56:25,273 - Not disconnecting (already have no connection)
+2023-04-27 11:56:25,752 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 11:56:26,889 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 11:56:27,880 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 12:00:36,736 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 12:00:36,736 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:00:36,736 - Not disconnecting (already have no connection)
+2023-04-27 12:00:37,237 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 12:00:37,351 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:00:37,994 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 12:00:39,858 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 60, in handle_message
+    m = re.search(pattern, event.ra_.text, flags=re.UNICODE)
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\events\newmessage.py", line 217, in __getattr__
+    return getattr(self.message, item)
+AttributeError: 'Message' object has no attribute 'ra_'
+2023-04-27 12:01:08,071 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 12:01:08,071 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:01:08,072 - Not disconnecting (already have no connection)
+2023-04-27 12:01:08,544 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 12:01:08,653 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:01:09,349 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 12:01:25,909 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 12:01:25,910 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:01:25,910 - Not disconnecting (already have no connection)
+2023-04-27 12:01:27,363 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 12:01:27,466 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 12:01:28,634 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 12:16:28,383 - Got difference for account updates
+2023-04-27 13:01:28,674 - Got difference for account updates
+2023-04-27 13:15:27,514 - Server sent a very old message with ID 7226637377744440321, ignoring (see FAQ for details)
+2023-04-27 13:15:27,544 - Server sent a very old message with ID 7226637454991465473, ignoring (see FAQ for details)
+2023-04-27 13:15:54,312 - Server sent a very old message with ID 7226637638721421313, ignoring (see FAQ for details)
+2023-04-27 13:15:54,473 - Server sent a very old message with ID 7226638781338445825, ignoring (see FAQ for details)
+2023-04-27 13:15:54,473 - Server sent a very old message with ID 7226638804985687041, ignoring (see FAQ for details)
+2023-04-27 13:16:14,231 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:16:14,231 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:16:14,232 - Not disconnecting (already have no connection)
+2023-04-27 13:17:51,763 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:17:51,898 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:17:52,985 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:22:02,531 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:22:02,532 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:22:02,532 - Not disconnecting (already have no connection)
+2023-04-27 13:22:02,985 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:22:03,090 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:22:03,687 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:26:39,531 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:26:39,533 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:26:39,533 - Not disconnecting (already have no connection)
+2023-04-27 13:26:39,995 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:26:40,095 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:26:40,646 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:26:42,398 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 66, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 47, in set_merchant_visibility
+    cur.execute("SELECT Id FROM GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM GatewayMerchants WHERE ProviderId='18457'
+                       ^
+
+2023-04-27 13:36:55,831 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:36:55,833 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:36:55,833 - Not disconnecting (already have no connection)
+2023-04-27 13:36:56,301 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:36:56,419 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:36:57,083 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:36:59,336 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 66, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 47, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:38:52,473 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 66, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 47, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2023-04-27 13:39:47,978 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:39:47,979 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:39:47,979 - Not disconnecting (already have no connection)
+2023-04-27 13:39:49,630 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:39:49,743 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:39:50,367 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:39:53,614 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 66, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 47, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:43:09,354 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:43:09,355 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:43:09,355 - Not disconnecting (already have no connection)
+2023-04-27 13:43:22,618 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:43:22,761 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:43:23,435 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:43:25,312 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 66, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 47, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:49:52,428 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:49:52,428 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:49:52,429 - Not disconnecting (already have no connection)
+2023-04-27 13:49:52,881 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:49:53,034 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:49:53,704 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:50:06,059 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 67, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 48, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:50:29,094 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:50:29,095 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:50:29,096 - Not disconnecting (already have no connection)
+2023-04-27 13:50:29,607 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:50:29,760 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:50:30,436 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:50:31,781 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 67, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 48, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:50:42,842 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:50:42,843 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:50:42,843 - Not disconnecting (already have no connection)
+2023-04-27 13:50:44,693 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:50:44,866 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:50:45,510 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:50:48,211 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 67, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 48, in set_merchant_visibility
+    cur.execute("SELECT Id FROM public.GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "public.gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM public.GatewayMerchants WHERE ProviderId='184...
+                       ^
+
+2023-04-27 13:51:08,258 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 13:51:08,259 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:51:08,259 - Not disconnecting (already have no connection)
+2023-04-27 13:51:08,727 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 13:51:08,838 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 13:51:09,622 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 13:51:14,232 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 67, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 48, in set_merchant_visibility
+    cur.execute("SELECT Id FROM GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM GatewayMerchants WHERE ProviderId='18457'
+                       ^
+
+2023-04-27 13:52:02,152 - Got difference for channel 1289780456 updates
+2023-04-27 14:06:09,631 - Got difference for account updates
+2023-04-27 14:06:10,275 - Got difference for channel 1577878337 updates
+2023-04-27 14:07:18,879 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:07:18,880 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:07:18,880 - Not disconnecting (already have no connection)
+2023-04-27 14:07:58,765 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:07:58,877 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:07:59,490 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 14:08:12,378 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 68, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 48, in set_merchant_visibility
+    cur.execute("SELECT Id FROM GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM GatewayMerchants WHERE ProviderId='18457'
+                       ^
+
+2023-04-27 14:08:32,938 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 63, in handle_message
+    if m:
+psycopg2.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block
+
+2023-04-27 14:22:26,789 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:22:26,790 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:22:26,790 - Not disconnecting (already have no connection)
+2023-04-27 14:23:29,504 - Connected to the PostgreSQL database
+2023-04-27 14:23:29,515 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:23:29,637 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:23:30,670 - \u0421\u043b\u0443\u0436\u0431\u0430 \u0437\u0430\u043f\u0443\u0449\u0435\u043d\u0430!
+2023-04-27 14:23:48,151 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT Id FROM GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM GatewayMerchants WHERE ProviderId='18457'
+                       ^
+
+2023-04-27 14:25:09,884 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:25:09,884 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:25:09,885 - Not disconnecting (already have no connection)
+2023-04-27 14:25:10,368 - Connected to the PostgreSQL database
+2023-04-27 14:25:10,380 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:25:10,496 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:25:11,146 - Service is started!
+2023-04-27 14:25:22,167 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT Id FROM GatewayMerchants WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedTable: relation "gatewaymerchants" does not exist
+LINE 1: SELECT Id FROM GatewayMerchants WHERE ProviderId='18457'
+                       ^
+
+2023-04-27 14:29:06,965 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:29:06,965 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:29:06,966 - Not disconnecting (already have no connection)
+2023-04-27 14:29:07,440 - Connected to the PostgreSQL database
+2023-04-27 14:29:07,452 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:29:07,557 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:29:08,175 - Service is started!
+2023-04-27 14:29:16,667 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT Id FROM \"GatewayMerchants\" WHERE ProviderId=%s", (provider_id,))
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 1: SELECT Id FROM "GatewayMerchants" WHERE ProviderId='18457'
+               ^
+HINT:  Perhaps you meant to reference the column "GatewayMerchants.Id".
+
+2023-04-27 14:31:14,236 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:31:14,236 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:31:14,237 - Not disconnecting (already have no connection)
+2023-04-27 14:31:14,705 - Connected to the PostgreSQL database
+2023-04-27 14:31:14,718 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:31:14,831 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:31:15,487 - Service is started!
+2023-04-27 14:31:21,026 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT \"GatewayMerchants.Id\" FROM \"GatewayMerchants\" WHERE \"GatewayMerchants.ProviderId\"=%s", (provider_id,))
+psycopg2.errors.UndefinedColumn: column "GatewayMerchants.Id" does not exist
+LINE 1: SELECT "GatewayMerchants.Id" FROM "GatewayMerchants" WHERE "...
+               ^
+
+2023-04-27 14:32:26,060 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:32:26,060 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:32:26,060 - Not disconnecting (already have no connection)
+2023-04-27 14:32:26,526 - Connected to the PostgreSQL database
+2023-04-27 14:32:26,538 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:32:26,648 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:32:27,297 - Service is started!
+2023-04-27 14:32:31,934 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT \"Id\" FROM \"GatewayMerchants\" WHERE \"ProviderId\"=%s", (provider_id,))
+psycopg2.errors.InsufficientPrivilege: permission denied for table GatewayMerchants
+
+2023-04-27 14:39:31,558 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:39:31,560 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:39:31,561 - Not disconnecting (already have no connection)
+2023-04-27 14:39:33,520 - Connected to the PostgreSQL database
+2023-04-27 14:39:33,555 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:39:33,661 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:39:34,267 - Service is started!
+2023-04-27 14:39:41,891 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 78, in handle_message
+    set_merchant_visibility(provider_id, is_enable)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 59, in set_merchant_visibility
+    cur.execute("SELECT \"Id\" FROM \"GatewayMerchants\" WHERE \"ProviderId\"=%s", (provider_id,))
+psycopg2.errors.InsufficientPrivilege: permission denied for table GatewayMerchants
+
+2023-04-27 14:57:03,913 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:57:03,915 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:57:03,916 - Not disconnecting (already have no connection)
+2023-04-27 14:57:06,164 - Connected to the PostgreSQL database
+2023-04-27 14:57:06,208 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:57:06,341 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:57:07,201 - Service is started!
+2023-04-27 14:57:17,539 - \u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a 18457 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d
+2023-04-27 14:57:17,540 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 83, in handle_message
+    await update_last_message_number(event.message.id)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 46, in update_last_message_number
+    cur.execute("UPDATE \"LastMessage\" SET \"MessageNumber\" = %s WHERE \"Id\" = 1", (message_number,))
+psycopg2.errors.UndefinedTable: relation "LastMessage" does not exist
+LINE 1: UPDATE "LastMessage" SET "MessageNumber" = 45 WHERE "Id" = 1
+               ^
+
+2023-04-27 14:58:40,555 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 14:58:40,563 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:58:40,563 - Not disconnecting (already have no connection)
+2023-04-27 14:58:43,613 - Connected to the PostgreSQL database
+2023-04-27 14:58:43,644 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 14:58:43,753 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 14:58:44,430 - Service is started!
+2023-04-27 14:58:50,703 - \u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a 18457 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d
+2023-04-27 14:58:50,708 - Unhandled exception on handle_message
+Traceback (most recent call last):
+  File "C:\Users\Jawa\PycharmProjects\parser\venv\lib\site-packages\telethon\client\updates.py", line 543, in _dispatch_update
+    await callback(event)
+  File "C:\Users\Jawa\PycharmProjects\parser\1111.py", line 83, in handle_message
+    await update_last_message_number(event.message.id)
+TypeError: object NoneType can't be used in 'await' expression
+2023-04-27 15:02:41,183 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 15:02:41,185 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:02:41,185 - Not disconnecting (already have no connection)
+2023-04-27 15:02:44,297 - Connected to the PostgreSQL database
+2023-04-27 15:02:44,335 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 15:02:44,451 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:02:45,230 - Service is started!
+2023-04-27 15:02:52,326 - \u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a 18457 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d
+2023-04-27 15:03:16,682 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 15:03:16,683 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:03:16,684 - Not disconnecting (already have no connection)
+2023-04-27 15:03:19,839 - Connected to the PostgreSQL database
+2023-04-27 15:03:19,879 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 15:03:19,997 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:03:20,798 - Service is started!
+2023-04-27 15:03:25,259 - \u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a 18457 \u043e\u0442\u043a\u043b\u044e\u0447\u0435\u043d
+2023-04-27 15:10:03,487 - \u041f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a 18457 \u0432\u043a\u043b\u044e\u0447\u0435\u043d
+2023-04-27 15:18:21,496 - Got difference for channel 1441051007 updates
+2023-04-27 15:30:27,333 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 15:30:27,334 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:30:27,334 - Not disconnecting (already have no connection)
+2023-04-27 15:30:27,799 - Connected to the PostgreSQL database
+2023-04-27 15:30:27,815 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 15:30:27,935 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:30:28,654 - Service is started!
+2023-04-27 15:31:31,018 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 15:31:31,018 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:31:31,019 - Not disconnecting (already have no connection)
+2023-04-27 15:31:31,475 - Connected to the PostgreSQL database
+2023-04-27 15:31:31,486 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 15:31:31,602 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 15:31:32,262 - Service is started!
+2023-04-27 15:46:32,452 - Got difference for account updates
+2023-04-27 15:57:25,830 - Got difference for channel 1289780456 updates
+2023-04-27 16:01:32,679 - Got difference for account updates
+2023-04-27 16:01:35,699 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 16:01:35,700 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:01:35,700 - Not disconnecting (already have no connection)
+2023-04-27 16:01:36,147 - Connected to the PostgreSQL database
+2023-04-27 16:01:36,163 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 16:01:36,268 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:01:36,885 - Service is started!
+2023-04-27 16:01:46,221 - Merchant 28438 enabled
+2023-04-27 16:03:11,580 - Merchant 28438 disabled
+2023-04-27 16:06:13,537 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 16:06:13,538 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:06:13,538 - Not disconnecting (already have no connection)
+2023-04-27 16:06:13,994 - Connected to the PostgreSQL database
+2023-04-27 16:06:14,005 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 16:06:14,110 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:06:14,710 - Service is started!
