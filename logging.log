@@ -970,3 +970,11 @@ TypeError: object NoneType can't be used in 'await' expression
 2023-04-27 16:06:14,005 - Connecting to 149.154.167.51:443/TcpFull...
 2023-04-27 16:06:14,110 - Connection to 149.154.167.51:443/TcpFull complete!
 2023-04-27 16:06:14,710 - Service is started!
+2023-04-27 16:41:01,284 - Disconnecting from 149.154.167.51:443/TcpFull...
+2023-04-27 16:41:01,285 - Disconnection from 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:41:01,285 - Not disconnecting (already have no connection)
+2023-04-27 16:41:29,495 - Connected to the PostgreSQL database
+2023-04-27 16:41:29,507 - Connecting to 149.154.167.51:443/TcpFull...
+2023-04-27 16:41:29,622 - Connection to 149.154.167.51:443/TcpFull complete!
+2023-04-27 16:41:30,226 - Service is started!
+2023-04-27 16:53:35,743 - Got difference for channel 1577878337 updates
